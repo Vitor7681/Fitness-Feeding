@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CalculaIMC">
+
+    <TextView
+        android:id="@+id/calculadora_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Calculadora de IMC"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="25sp"
+        android:ems="10"
+        android:hint="@string/digite_peso"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:ems="10"
+        android:hint="@string/digite_altura"
+        android:inputType="number|numberDecimal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="calcularImc"
+        android:padding="15sp"
+        android:text="Calcular"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/resultado_imc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="25sp"
+        android:text="-----------"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/fisico"
+        android:layout_width="400dp"
+        android:layout_height="232dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/fisico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_voltar"
+        android:layout_width="100sp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="20sp"
+        android:textColor="@color/white"
+        android:background="@color/principal_green"
+        android:onClick="calcularImc"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:padding="6sp"/>
+
+
+</LinearLayout>

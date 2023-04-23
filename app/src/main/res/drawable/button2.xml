@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="10dp"></corners>
+    <gradient
+        android:endColor="#38983D"
+        android:startColor="#2F7733"
+        android:angle="180"
+        android:id="@+id/bt_definir_lembrete"
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"/>
+
+</shape>

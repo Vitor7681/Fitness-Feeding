@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005820961132",
+    "project_id": "projeto-calcula-imc",
+    "storage_bucket": "projeto-calcula-imc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005820961132:android:877f221b79f811a73b9349",
+        "android_client_info": {
+          "package_name": "com.example.projetocalculaimc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005820961132-v1pe0betkkdkpr68kd8bs91v9nofe6mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz_1VLKLBHDUiExDi-odYtAcsiWQuf75c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005820961132-v1pe0betkkdkpr68kd8bs91v9nofe6mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
